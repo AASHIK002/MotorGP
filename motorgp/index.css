@@ -1,0 +1,75 @@
+body {
+    font-family: serif;
+    background-image: url(https://example.com/motogp-background.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.uk-card-title {
+    font-family: serif;
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.uk-card-body {
+    text-align: center;
+}
+
+.uk-modal-body {
+    text-align: center;
+}
+
+.uk-flex-middle {
+    align-items: center !important;
+}
+
+.uk-container {
+    padding-bottom: 10rem;
+}
+
+.uk-margin {
+    margin-bottom: 1px !important;
+}
+
+.uk-button {
+    font-size: 2rem;
+    display: contents;
+}
+
+@media (min-width: 640px) {
+    .uk-container {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+    }
+}
+
+.uk-card-secondary {
+    height: 30rem;
+    width: 70rem;
+    background-color:rgb(236, 189, 189)
+
+}
+
+.uk-card-default {
+    background-color:gray
+}
+
+.uk-card-default .uk-card-title {
+    color: #ffffff;
+}
+
+canvas, img, video {
+    max-width: 20rem;
+    height: 20rem;
+    box-sizing: border-box;
+}
+
+.address, dl, fieldset, figure, ol, p, pre {
+    font-size: 1.5rem;
+    margin-left: 20px !important;
+    margin: 0 0 20px 0;
+}
